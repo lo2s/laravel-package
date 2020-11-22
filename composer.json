@@ -1,0 +1,36 @@
+{
+    "name": "lo2s/laravel-package",
+    "description": "laravel package example",
+    "authors": [
+        {
+            "name": "Igor Baryshev",
+            "email": "lo.2s@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "ext-soap": "*",
+        "ext-xml": "*",
+        "ext-simplexml": "*",
+        "illuminate/support": "5.8.*",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lo2s\\LaravelPackage\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lo2s\\LaravelPackage\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lo2s\\LaravelPackage\\PackageServiceProvider"
+            ]
+        }
+    }
+}
