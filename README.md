@@ -19,3 +19,4 @@
     - ACQUIRING_URL_CREATE_PAYMENT
     - ACQUIRING_URL_GET_PAYMENT_STATUS
 5. Run migrations: `php artisan migrate`
+6. 
